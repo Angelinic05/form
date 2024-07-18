@@ -10,9 +10,6 @@ public class UserController {
 
     @GetMapping("/index")
     public String details(Model model) {
-        model.addAttribute("title", "Bienvenido..");
-        model.addAttribute("author", "sara lucia lozano rueda");
-        model.addAttribute("web", "MiWeb");
         return "index";
     }
     
