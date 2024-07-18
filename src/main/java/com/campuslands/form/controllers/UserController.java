@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UserController {
 
     @GetMapping("/index")
-    public String details(Model model) {
+    public String index(Model model) {
         return "index";
     }
     
